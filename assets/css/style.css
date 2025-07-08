@@ -13,7 +13,7 @@
 :root {
   --body-font: "Jost", sans-serif;
   --body-color: #FFFFFF;
-  --primary-color: #4743c9;
+  --primary-color: #E63A27;
   --secondary-color: #00FE83;
   --head-color: #0c266c;
   --section-primary-color: #f2f3f9;
@@ -694,7 +694,7 @@ label {
   color: var(--head-alt-color);
 }
 .header-section .navbar {
-  padding: 23px 15px;
+  padding: 5px 15px;
 }
 .header-section .navbar .navbar-collapse .navbar-nav .nav-item .nav-link,
 .header-section .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-item {
@@ -2760,6 +2760,7 @@ label {
   .header-section .navbar .navbar-brand img {
     max-width: initial;
   }
+
   .header-section .navbar .navbar-collapse .navbar-nav {
     height: 200px;
     margin: 20px 0;
@@ -3073,7 +3074,7 @@ label {
     line-height: 22.4px;
   }
   .header-section .navbar {
-    padding: 20px 15px;
+    padding: 5px 15px;
   }
   .banner-section.about-us .overlay .banner-content,
   .banner-section .overlay .banner-content {
@@ -3428,4 +3429,15 @@ label {
         text-align: center;
         gap: 10px;
     }
+}
+
+.navbar-brand img{
+  height: 100px;
+}
+
+
+@media (max-width: 767.98px) {
+  .navbar-brand img {
+    height: 60px; 
+  }
 }

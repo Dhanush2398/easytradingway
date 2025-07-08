@@ -3467,7 +3467,7 @@ label {
 }
 @media (min-width: 321px) and (max-width: 376px) {
   .name {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     position: relative;
     right: 40px;

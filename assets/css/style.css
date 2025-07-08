@@ -600,7 +600,6 @@ label {
 .cmn-btn.active {
   background-color: transparent;
   border: 1px solid var(--border-color);
-  color: var(--para-color);
 }
 .cmn-btn.active:hover {
   background: var(--primary-color);
@@ -1002,7 +1001,7 @@ label {
   margin-top: -345px;
 }
 .banner-section.corporate-card .overlay {
-  background-image: url(../images/corporate-card-globe.png), url(../images/corporate-banner-img.png);
+  background-image: url(../images/corporate-card-globe.png), url(../images/budgeting-analytics-banner.png);
   background-repeat: no-repeat;
   background-position: left bottom, right 120px bottom;
 }
@@ -1035,7 +1034,7 @@ label {
   padding: 320px 0 220px;
 }
 .banner-section.invoice-management .section-text p {
-  width: 65%;
+  width: 90%;
   margin: auto;
 }
 .banner-section.invoice-management .overlay {
@@ -1043,9 +1042,7 @@ label {
   background-repeat: no-repeat;
   background-position: right bottom;
 }
-.banner-section.invoice-management .overlay .banner-content {
-  padding: 395px 0 300px;
-}
+
 .banner-section.invoice-management .overlay .cmn-btn:hover {
   color: var(--bs-white);
 }
@@ -3181,7 +3178,7 @@ label {
   }
   .banner-section.invoice-management.rewards .overlay .banner-content,
   .banner-section.invoice-management .overlay .banner-content {
-    padding: 170px 0 80px;
+    padding: 130px 0 80px;
   }
   .accept-payments .overlay {
     background-image: none;
@@ -3495,4 +3492,13 @@ label {
 
 .footer-logo img{
   height: 100px;
+}
+
+@media (max-width: 768px) {
+  .main-navbar .dropdown-menu {
+  
+    z-index: 9999 !important;
+   
+  }
+
 }

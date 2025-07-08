@@ -1557,6 +1557,14 @@ label {
   box-shadow: 2px 3.464px 24px 0px rgba(106, 105, 194, 0.25);
   height: 400px;
 }
+
+@media (max-width: 768px) {
+  .testimonials .single-slide .single-content {
+    height: auto; 
+    padding: 25px 20px 30px;
+    height: 300px;
+  }
+}
 .testimonials .single-slide .single-content i {
   color: #e4ab19;
 }
@@ -2860,7 +2868,7 @@ label {
   .banner-section.corporate-card.subscriptions .overlay .banner-content,
   .banner-section.payment .overlay .banner-content,
   .banner-section.corporate-card.budgeting-analytics .overlay .banner-content {
-    padding: 170px 0 70px;
+    padding: 100px 0 70px;
   }
   .banner-section.corporate-card .overlay,
   .banner-section.corporate-card.subscriptions .overlay,

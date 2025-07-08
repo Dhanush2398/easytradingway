@@ -3441,3 +3441,21 @@ label {
     height: 60px; 
   }
 }
+
+.name{
+  color: #E63A27;
+  font-weight: 900;
+  font-size: 30px;
+}
+@media (max-width: 767.98px) {
+  .name {
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 20px;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+  }
+}

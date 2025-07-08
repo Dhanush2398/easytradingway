@@ -3457,12 +3457,29 @@ label {
   font-weight: 900;
   font-size: 30px;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 320px) {
   .name {
     font-size: 16px;
     text-align: center;
     position: relative;
     right: 30px;
+  }
+}
+@media (min-width: 321px) and (max-width: 376px) {
+  .name {
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    right: 40px;
+  }
+}
+
+@media (min-width: 377px) and (max-width: 426px) {
+  .name {
+    font-size: 22px;
+    text-align: center;
+     position: relative;
+     right: 50px;
   }
 }
 
@@ -3474,4 +3491,8 @@ label {
 }
 .single-item h5{
   color: #E63A27 !important;
+}
+
+.footer-logo img{
+  height: 100px;
 }

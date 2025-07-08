@@ -1988,6 +1988,7 @@ label {
   background-color: var(--bs-white);
   padding: 30px;
   margin-bottom: 30px;
+  height: 200px;
 }
 .our-values .single-box img {
   max-width: initial;
@@ -3501,4 +3502,27 @@ label {
    
   }
 
+}
+
+.cmn-btn:hover{
+  background-color: #E63A27;
+  color: #fff;
+}
+
+.pricing-section {
+  margin-top: 20px;
+  background-image: url(../images/our-solutions-bg.png);
+  background-position: top;
+  background-size: auto;
+}
+
+.pricing-section h5{
+ color: #FFFD67;
+}
+
+.pricing-section h2{
+ color: #E63A27;
+}
+.pricing-section p{
+ color: #fff;
 }

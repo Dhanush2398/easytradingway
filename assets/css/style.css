@@ -3451,14 +3451,10 @@ label {
 }
 @media (max-width: 767.98px) {
   .name {
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
-    width: 100%;
-    position: absolute;
-    left: 20px;
-    right: 0;
-    margin: auto;
-    z-index: 1;
+    position: relative;
+    right: 30px;
   }
 }
 

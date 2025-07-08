@@ -300,7 +300,7 @@ label {
 }
 
 .dark-sec .sub-title {
-  color: var(--secondary-color);
+  color: #FFFD67;
 }
 .dark-sec .title, .dark-sec p {
   color: var(--bs-white);

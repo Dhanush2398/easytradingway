@@ -370,7 +370,7 @@ label {
 }
 
 .pt-120 {
-  padding-top: 120px;
+  padding-top: 20px;
 }
 
 @media (max-width: 991px) {
@@ -400,7 +400,7 @@ label {
   }
 }
 .pb-120 {
-  padding-bottom: 120px;
+  padding-bottom: 20px;
 }
 
 @media (max-width: 991px) {
@@ -1381,6 +1381,7 @@ label {
   border-radius: 20px;
   padding: 40px 20px 33px;
   transition: 0.3s;
+  height: 320px;
 }
 .global-payment .single-item:hover {
   box-shadow: 0px 12px 24px rgba(106, 105, 194, 0.25);
@@ -1554,6 +1555,7 @@ label {
   border-radius: 20px;
   background-color: var(--bs-white);
   box-shadow: 2px 3.464px 24px 0px rgba(106, 105, 194, 0.25);
+  height: 400px;
 }
 .testimonials .single-slide .single-content i {
   color: #e4ab19;
@@ -3459,3 +3461,4 @@ label {
     z-index: 1;
   }
 }
+

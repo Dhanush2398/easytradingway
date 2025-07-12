@@ -3449,23 +3449,29 @@ label {
     height: 60px; 
   }
 }
-
-.name{
+.red-text {
   color: #E63A27;
-  font-weight: 900;
-  font-size: 30px;
+  font-weight: 800;
 }
+
+.black-text {
+  color: black;
+  font-weight: 800;
+}
+
+
 @media (max-width: 320px) {
   .name {
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     position: relative;
     right: 30px;
   }
 }
+
 @media (min-width: 321px) and (max-width: 376px) {
   .name {
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     position: relative;
     right: 40px;
@@ -3474,10 +3480,10 @@ label {
 
 @media (min-width: 377px) and (max-width: 426px) {
   .name {
-    font-size: 20px;
+    font-size: 32px;
     text-align: center;
-     position: relative;
-     right: 50px;
+    position: relative;
+    right: 50px;
   }
 }
 
